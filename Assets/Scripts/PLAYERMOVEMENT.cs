@@ -6,6 +6,14 @@ public class PLAYERMOVEMENT : MonoBehaviour
 {
     private Rigidbody2D rb;
 
+    bool isGrounded;
+
+    Animator m_Animation;
+
+    public float speed = 10f;
+    public float jumpheight = 10f;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +23,9 @@ public class PLAYERMOVEMENT : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        m_Animation = gameObject.GetComponent<Animator>();
+
+
         DoJump();
         DoMove();
 
@@ -25,18 +36,37 @@ public class PLAYERMOVEMENT : MonoBehaviour
         Vector2 velocity = rb.velocity;
 
         // check for jump
-        if (Input.GetKey("j"))
+        if (Input.GetKey("space")&& isGrounded)
         {
             if (velocity.y < 0.01f)
             {
-                velocity.y = 10f;    // give the player a velocity of 5 in the y axis
+                velocity.y = jumpheight;    // give the player a velocity of 5 in the y axis
 
             }
         }
 
         rb.velocity = velocity;
 
+
+
+
     }
+
+
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        isGrounded = true;
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        isGrounded = false;
+    }
+
+
+
+
 
     void DoMove()
     {
@@ -46,17 +76,27 @@ public class PLAYERMOVEMENT : MonoBehaviour
         velocity.x = 0;
 
         // check for moving left
-        if (Input.GetKey("z"))
+        if (Input.GetKey("a"))
         {
-            velocity.x = -5;
+            velocity.x = -speed;
+            m_Animation.SetTrigger("RUN");
         }
 
         // check for moving right
-        if (Input.GetKey("x"))
+        if (Input.GetKey("d"))
         {
-            velocity.x = 5;
+            velocity.x = speed;
+            m_Animation.SetTrigger("RUN");
         }
+
         rb.velocity = velocity;
 
     }
+
+
+
+
+
+
+
 }
