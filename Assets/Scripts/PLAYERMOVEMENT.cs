@@ -66,9 +66,24 @@ public class PLAYERMOVEMENT : MonoBehaviour
     }
 
 
+    void DoFaceLeft(bool faceleft)
+    {
+        if (faceleft == true)
+        {
+            transform.localRotation = Quaternion.Euler(0, 180 , 0);
+        }
+        else
+        {
+            transform.localRotation = Quaternion.Euler(0, 0 , 0);
+        }
+    }
+    
+    
 
-
-
+    
+    
+    
+    
     void DoMove()
     {
         Vector2 velocity = rb.velocity;
@@ -89,6 +104,30 @@ public class PLAYERMOVEMENT : MonoBehaviour
             velocity.x = speed;
             m_Animation.SetTrigger("RUN");
         }
+
+
+
+        if(velocity.x <  -0.5f)
+        {
+            DoFaceLeft(true);
+        }
+        if (velocity.x > 0.5f)
+        {
+            DoFaceLeft(false);
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
 
         rb.velocity = velocity;
 
