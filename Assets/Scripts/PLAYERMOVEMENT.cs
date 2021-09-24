@@ -40,7 +40,8 @@ public class PLAYERMOVEMENT : MonoBehaviour
         {
             if (velocity.y < 0.01f)
             {
-                velocity.y = jumpheight;    // give the player a velocity of 5 in the y axis
+                velocity.y = jumpheight;   
+                m_Animation.SetTrigger("Jump");
 
             }
         }
