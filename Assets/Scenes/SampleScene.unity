@@ -762,6 +762,7 @@ GameObject:
   - component: {fileID: 1427569078}
   - component: {fileID: 1427569080}
   - component: {fileID: 1427569079}
+  - component: {fileID: 1427569081}
   m_Layer: 0
   m_Name: GUARDS
   m_TagString: Untagged
@@ -912,6 +913,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 60
+--- !u!114 &1427569081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1427569074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eeebff042573dd41adaaed1f5a56f73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1427569074}
+  speed: 10
 --- !u!1 &1677493491
 GameObject:
   m_ObjectHideFlags: 0

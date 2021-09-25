@@ -21,6 +21,25 @@ public class enemy : MonoBehaviour
         float px = player.transform.position.x;
         print(px);
 
-    
+
+       
+
+
+
+
+
+
+
+        void DoFaceLeft(bool faceleft)
+        {
+            if (faceleft == true)
+            {
+                transform.localRotation = Quaternion.Euler(0, 180, 0);
+            }
+            else
+            {
+                transform.localRotation = Quaternion.Euler(0, 0, 0);
+            }
+        }
     }
 }

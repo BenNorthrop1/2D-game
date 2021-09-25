@@ -40,9 +40,7 @@ public class PLAYERMOVEMENT : MonoBehaviour
         {
             if (velocity.y < 0.01f)
             {
-                velocity.y = jumpheight;   
-                m_Animation.SetTrigger("Jump");
-
+                velocity.y = jumpheight;
             }
         }
 
