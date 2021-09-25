@@ -95,15 +95,20 @@ public class PLAYERMOVEMENT : MonoBehaviour
         if (Input.GetKey("a"))
         {
             velocity.x = -speed;
-            m_Animation.SetTrigger("RUN");
+            m_Animation.SetBool("IsMoving", true);
         }
-
+        
         // check for moving right
-        if (Input.GetKey("d"))
+        else if (Input.GetKey("d"))
         {
             velocity.x = speed;
-            m_Animation.SetTrigger("RUN");
+            m_Animation.SetBool("IsMoving", true);
         }
+        else
+        {
+            m_Animation.SetBool("IsMoving", false);
+        }
+
 
 
 
