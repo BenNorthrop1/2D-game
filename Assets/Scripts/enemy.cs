@@ -28,59 +28,42 @@ public class enemy : MonoBehaviour
         float dist = ex - px;
         Vector2 velocity = rb.velocity;
         
-        velocity.x = 0;
+        
 
 
-    if (ex < px)
-    {
-        velocity.x = speed;
-        DoFaceLeft(false);
-    }
-    else
-    {
-        velocity.x = -speed;
-        DoFaceLeft(true);
-
-    }
-
-
-
-
-
-        if (dist <= 10 && dist > 0)
+        if (ex < px)
         {
-            speed = 0f;
-        }
-        else
-        {
-            speed = -regular;
-        }
-
-        if (dist <= -10 && dist > 0)
-        {
-            speed = 0f;
-        }
-        else
-        {
-            speed = regular;
-        }
-      
-      
-      if(velocity.x <  -0.5f)
-        {
-            DoFaceLeft(true);
-        }
-        if (velocity.x > 0.5f)
-        {
+            
             DoFaceLeft(false);
+        }
+        else
+        {
+        
+            DoFaceLeft(true);
 
         }
 
 
+        // move enemy towards player
+
+        velocity.x = 0;
+        if( dist < -2 )
+        {
+            velocity.x = 2;
+        }
+        else
+        {
+            // dead zone - do attack
+        }
 
 
+        if( dist > 2 )
+        {
+            velocity.x = -2;
+        }
 
-    rb.velocity = velocity;
+
+        rb.velocity = velocity;
     }
 
     private void OnCollisionStay2D(Collision2D collision)
