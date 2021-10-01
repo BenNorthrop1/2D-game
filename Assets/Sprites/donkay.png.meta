@@ -1,0 +1,2148 @@
+fileFormatVersion: 2
+guid: f40eba58d74ce114a9eadc1ae6fba4b1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8723515754715428299
+    second: donkay_0
+  - first:
+      213: -5278205741628736482
+    second: donkay_1
+  - first:
+      213: 7241257761032727985
+    second: donkay_2
+  - first:
+      213: 6009575494895181229
+    second: donkay_3
+  - first:
+      213: -812505838161942215
+    second: donkay_4
+  - first:
+      213: -408099898500488418
+    second: donkay_5
+  - first:
+      213: 1504235799440267007
+    second: donkay_6
+  - first:
+      213: 4146665175397961184
+    second: donkay_7
+  - first:
+      213: 3680818719993037888
+    second: donkay_8
+  - first:
+      213: -54991959915695094
+    second: donkay_9
+  - first:
+      213: -2555781081224914624
+    second: donkay_10
+  - first:
+      213: 499015060510371539
+    second: donkay_11
+  - first:
+      213: -4713355308625919026
+    second: donkay_12
+  - first:
+      213: -1050650664918071497
+    second: donkay_13
+  - first:
+      213: -8931002265733686154
+    second: donkay_14
+  - first:
+      213: -7589412655469786967
+    second: donkay_15
+  - first:
+      213: 7738358406520381507
+    second: donkay_16
+  - first:
+      213: 4739091791142727321
+    second: donkay_17
+  - first:
+      213: -4110346116930335767
+    second: donkay_18
+  - first:
+      213: -4529485156294394953
+    second: donkay_19
+  - first:
+      213: 1570004687973290686
+    second: donkay_20
+  - first:
+      213: 338011557826827034
+    second: donkay_21
+  - first:
+      213: -1645550722074888581
+    second: donkay_22
+  - first:
+      213: -6353608354095752445
+    second: donkay_23
+  - first:
+      213: -340394783958083633
+    second: donkay_24
+  - first:
+      213: 2475808158982734774
+    second: donkay_25
+  - first:
+      213: -1307712361836083653
+    second: donkay_26
+  - first:
+      213: 8609484722430629394
+    second: donkay_27
+  - first:
+      213: -2698650228116467166
+    second: donkay_28
+  - first:
+      213: -6195691717377532512
+    second: donkay_29
+  - first:
+      213: -1800438735146537234
+    second: donkay_30
+  - first:
+      213: 1123990520675310716
+    second: donkay_31
+  - first:
+      213: -5837941384282728704
+    second: donkay_32
+  - first:
+      213: 6108176610596340133
+    second: donkay_33
+  - first:
+      213: 2117474070918864314
+    second: donkay_34
+  - first:
+      213: -8277415759980927632
+    second: donkay_35
+  - first:
+      213: -808931772623703864
+    second: donkay_36
+  - first:
+      213: -4834193770438894575
+    second: donkay_37
+  - first:
+      213: 939304423474341247
+    second: donkay_38
+  - first:
+      213: -7597966444395568521
+    second: donkay_39
+  - first:
+      213: -5641428718352649459
+    second: donkay_40
+  - first:
+      213: 1711655779569576137
+    second: donkay_41
+  - first:
+      213: 1398506805327323065
+    second: donkay_42
+  - first:
+      213: 2223779361566485873
+    second: donkay_43
+  - first:
+      213: 2872519892741034595
+    second: donkay_44
+  - first:
+      213: 647721467312352835
+    second: donkay_45
+  - first:
+      213: 2714229037791887806
+    second: donkay_46
+  - first:
+      213: 8841118749842552659
+    second: donkay_47
+  - first:
+      213: 158893532990972725
+    second: donkay_48
+  - first:
+      213: -1449010897489916885
+    second: donkay_49
+  - first:
+      213: 3085405621365422033
+    second: donkay_50
+  - first:
+      213: 961572134732884203
+    second: donkay_51
+  - first:
+      213: 6466704882500943942
+    second: donkay_52
+  - first:
+      213: 9102996770314228353
+    second: donkay_53
+  - first:
+      213: -2285149634311641981
+    second: donkay_54
+  - first:
+      213: 5685527823104011405
+    second: donkay_55
+  - first:
+      213: -7388964828485067968
+    second: donkay_56
+  - first:
+      213: 5960671447280399572
+    second: donkay_57
+  - first:
+      213: -7992427697568581765
+    second: donkay_58
+  - first:
+      213: -3712369547873914239
+    second: donkay_59
+  - first:
+      213: -5557228825856160802
+    second: donkay_60
+  - first:
+      213: -1392319114993307654
+    second: donkay_61
+  - first:
+      213: -5591589899433765794
+    second: donkay_62
+  - first:
+      213: 1253831269688622591
+    second: donkay_63
+  - first:
+      213: 3995581493168215878
+    second: donkay_64
+  - first:
+      213: 2192891032076295291
+    second: donkay_65
+  - first:
+      213: 4202405078385416882
+    second: donkay_66
+  - first:
+      213: -7095746076406236765
+    second: donkay_67
+  - first:
+      213: 243698307925416174
+    second: donkay_68
+  - first:
+      213: -5822907434559629747
+    second: donkay_69
+  - first:
+      213: 896158577168891035
+    second: donkay_70
+  - first:
+      213: 2921820511131242294
+    second: donkay_71
+  - first:
+      213: 6177560145832869076
+    second: donkay_72
+  - first:
+      213: -8502691550566555379
+    second: donkay_73
+  - first:
+      213: -8464500112007242643
+    second: donkay_74
+  - first:
+      213: -8115822721313198089
+    second: donkay_75
+  - first:
+      213: 8484934756471935112
+    second: donkay_76
+  - first:
+      213: 1440062578828709599
+    second: donkay_77
+  - first:
+      213: 6101682846981731063
+    second: donkay_78
+  - first:
+      213: 6257080775673677014
+    second: donkay_79
+  - first:
+      213: 1834096807759464159
+    second: donkay_80
+  - first:
+      213: 3071527137248109963
+    second: donkay_81
+  - first:
+      213: 2871916631079150827
+    second: donkay_82
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: donkay_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 484
+        width: 31
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ac9a7e3a8dfe680800000000000000
+      internalID: -8723515754715428299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 484
+        width: 33
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1cbac6d7db00c6b0800000000000000
+      internalID: -5278205741628736482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_2
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 484
+        width: 33
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd656d519d1e7460800000000000000
+      internalID: 7241257761032727985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_3
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 496
+        width: 12
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad9e10921d466350800000000000000
+      internalID: 6009575494895181229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 434
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9392d6abe3669b4f0800000000000000
+      internalID: -812505838161942215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_5
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 434
+        width: 33
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e136105fd43265af0800000000000000
+      internalID: -408099898500488418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_6
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 434
+        width: 32
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff610146d7e10e410800000000000000
+      internalID: 1504235799440267007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_7
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 434
+        width: 32
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed041ec10aeb8930800000000000000
+      internalID: 4146665175397961184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_8
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 434
+        width: 32
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0440bcfbf15e41330800000000000000
+      internalID: 3680818719993037888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_9
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 434
+        width: 32
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04f8b39a11ac3ff0800000000000000
+      internalID: -54991959915695094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_10
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 434
+        width: 32
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049dce1d5aa088cd0800000000000000
+      internalID: -2555781081224914624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_11
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 390
+        width: 31
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de6a4bbd8bdce600800000000000000
+      internalID: 499015060510371539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_12
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 390
+        width: 35
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec38629b15cc69eb0800000000000000
+      internalID: -4713355308625919026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_13
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 390
+        width: 33
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737c78e69c65b61f0800000000000000
+      internalID: -1050650664918071497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_14
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 390
+        width: 26
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c1cbef1c4be0480800000000000000
+      internalID: -8931002265733686154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_15
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 346
+        width: 33
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a88ed8766dfca690800000000000000
+      internalID: -7589412655469786967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_16
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 346
+        width: 34
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3402e4d98fb246b60800000000000000
+      internalID: 7738358406520381507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_17
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 346
+        width: 36
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e280110e2a4c140800000000000000
+      internalID: 4739091791142727321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_18
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 346
+        width: 34
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb0674fbfd15f6c0800000000000000
+      internalID: -4110346116930335767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_19
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 297
+        width: 31
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bbfaa3af390421c0800000000000000
+      internalID: -4529485156294394953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_20
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 297
+        width: 34
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2985a02f6c9c510800000000000000
+      internalID: 1570004687973290686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_21
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 297
+        width: 32
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a139e3298bbd0b400800000000000000
+      internalID: 338011557826827034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_22
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 253
+        width: 34
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76b6d63654d929e0800000000000000
+      internalID: -1645550722074888581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_23
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 253
+        width: 34
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b1b246dd273d7a0800000000000000
+      internalID: -6353608354095752445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_24
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 210
+        width: 24
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc758ca5fbca64bf0800000000000000
+      internalID: -340394783958083633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_25
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 210
+        width: 29
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b30e283766db5220800000000000000
+      internalID: 2475808158982734774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_26
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 210
+        width: 34
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b368f5419821adde0800000000000000
+      internalID: -1307712361836083653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_27
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 210
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21651a37db80b7770800000000000000
+      internalID: 8609484722430629394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_28
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 225
+        width: 12
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22257146ae77c8ad0800000000000000
+      internalID: -2698650228116467166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_29
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 157
+        width: 25
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0add1ef853b740aa0800000000000000
+      internalID: -6195691717377532512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_30
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 157
+        width: 29
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeeacbf628e8307e0800000000000000
+      internalID: -1800438735146537234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_31
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 157
+        width: 30
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c12c36c67399f00800000000000000
+      internalID: 1123990520675310716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_32
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 157
+        width: 28
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0079642ed377bfea0800000000000000
+      internalID: -5837941384282728704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_33
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 157
+        width: 26
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1c1fbc34a94c450800000000000000
+      internalID: 6108176610596340133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_34
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 157
+        width: 27
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd183ad277c26d10800000000000000
+      internalID: 2117474070918864314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_35
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 157
+        width: 29
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075ed10d836b02d80800000000000000
+      internalID: -8277415759980927632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_36
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 157
+        width: 29
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0bc35b6d816c4f0800000000000000
+      internalID: -808931772623703864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_37
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 157
+        width: 27
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c5591e06e79ecb0800000000000000
+      internalID: -4834193770438894575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_38
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 108
+        width: 29
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7524218564190d00800000000000000
+      internalID: 939304423474341247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_39
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 108
+        width: 29
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772e67a46c99e8690800000000000000
+      internalID: -7597966444395568521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_40
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 108
+        width: 28
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0337e0687e95b1b0800000000000000
+      internalID: -5641428718352649459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_41
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 108
+        width: 29
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c82dfedcd501c710800000000000000
+      internalID: 1711655779569576137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_42
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 60
+        width: 29
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf5083a78e786310800000000000000
+      internalID: 1398506805327323065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_43
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 60
+        width: 30
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17de3091c837cde10800000000000000
+      internalID: 2223779361566485873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_44
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 60
+        width: 28
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36292198f9d3dd720800000000000000
+      internalID: 2872519892741034595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_45
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 60
+        width: 30
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e2c842e3b2df800800000000000000
+      internalID: 647721467312352835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_46
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 60
+        width: 24
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1c2a4ede0eaa520800000000000000
+      internalID: 2714229037791887806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_47
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 90
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357396529a6f1ba70800000000000000
+      internalID: 8841118749842552659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_48
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 60
+        width: 23
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533a80f83d0843200800000000000000
+      internalID: 158893532990972725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_49
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 91
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c8173144414ebe0800000000000000
+      internalID: -1449010897489916885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_50
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 90
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7ba71c01091da20800000000000000
+      internalID: 3085405621365422033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_51
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 93
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8eaac03c0385d00800000000000000
+      internalID: 961572134732884203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_52
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 91
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640c0cc14d95eb950800000000000000
+      internalID: 6466704882500943942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_53
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 92
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1829b163557545e70800000000000000
+      internalID: 9102996770314228353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_54
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 92
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384ad3cc3848940e0800000000000000
+      internalID: -2285149634311641981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_55
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 60
+        width: 26
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ce6b09e6d07ee40800000000000000
+      internalID: 5685527823104011405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_56
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 60
+        width: 26
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bda4c03af157990800000000000000
+      internalID: -7388964828485067968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_57
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 92
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d436fda91f88b250800000000000000
+      internalID: 5960671447280399572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_58
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 90
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b777e61da51351190800000000000000
+      internalID: -7992427697568581765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_59
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 91
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1827fffa0930b7cc0800000000000000
+      internalID: -3712369547873914239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_60
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 91
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb484b83d1c0e2b0800000000000000
+      internalID: -5557228825856160802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_61
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 91
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff66d8442d7dace0800000000000000
+      internalID: -1392319114993307654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_62
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 92
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54969aac9ea662b0800000000000000
+      internalID: -5591589899433765794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_63
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 60
+        width: 23
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd311e85e0866110800000000000000
+      internalID: 1253831269688622591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_64
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 60
+        width: 29
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6479a63d238237730800000000000000
+      internalID: 3995581493168215878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_65
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 60
+        width: 29
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c1c0676c6be6e10800000000000000
+      internalID: 2192891032076295291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_66
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 86
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bad57b4721f15a30800000000000000
+      internalID: 4202405078385416882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_67
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 86
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a93f63d988d68d90800000000000000
+      internalID: -7095746076406236765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_68
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 89
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee81244e15ac16300800000000000000
+      internalID: 243698307925416174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_69
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 87
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4697131a80e03fa0800000000000000
+      internalID: -5822907434559629747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_70
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 83
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c32965a7bcf6c00800000000000000
+      internalID: 896158577168891035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_71
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 60
+        width: 28
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f8d6f36446c8820800000000000000
+      internalID: 2921820511131242294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_72
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 60
+        width: 28
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc7af6f83a1bb550800000000000000
+      internalID: 6177560145832869076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_73
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 84
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01e3cd751f500a80800000000000000
+      internalID: -8502691550566555379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_74
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 60
+        width: 28
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6cdd86befd088a80800000000000000
+      internalID: -8464500112007242643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_75
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 8
+        width: 27
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff25140c3ece5f80800000000000000
+      internalID: -8115822721313198089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_76
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 8
+        width: 30
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88010e5b43b80c570800000000000000
+      internalID: 8484934756471935112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_77
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 8
+        width: 27
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde0b6129412cf310800000000000000
+      internalID: 1440062578828709599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_78
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 8
+        width: 30
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2b072a8388da450800000000000000
+      internalID: 6101682846981731063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_79
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 8
+        width: 28
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d484f460dd95d650800000000000000
+      internalID: 6257080775673677014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_80
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 8
+        width: 32
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd64e264455047910800000000000000
+      internalID: 1834096807759464159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_81
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 8
+        width: 29
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8565ad58a140aa20800000000000000
+      internalID: 3071527137248109963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkay_82
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 8
+        width: 27
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4620cb5f81bd720800000000000000
+      internalID: 2871916631079150827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

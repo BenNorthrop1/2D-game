@@ -12,12 +12,16 @@ public class PLAYERMOVEMENT : MonoBehaviour
 
     public float speed = 10f;
     public float jumpheight = 10f;
+    public float sprint = 12f;
+    public float regular;
+
 
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        regular = speed;
     }
 
     // Update is called once per frame
@@ -28,8 +32,22 @@ public class PLAYERMOVEMENT : MonoBehaviour
 
         DoJump();
         DoMove();
+        DoFight();
 
     }
+
+    void DoFight()
+    {
+        if (Input.GetButton("Fire1"))
+        {
+            m_Animation.SetTrigger("Fight");
+        }
+    }
+
+
+
+
+
 
     void DoJump()
     {
@@ -41,6 +59,7 @@ public class PLAYERMOVEMENT : MonoBehaviour
             if (velocity.y < 0.01f)
             {
                 velocity.y = jumpheight;
+                m_Animation.SetTrigger("Jumping");
             }
         }
 
@@ -107,6 +126,14 @@ public class PLAYERMOVEMENT : MonoBehaviour
             m_Animation.SetBool("IsMoving", false);
         }
 
+        if (Input.GetButton("Sprint"))
+        {
+            speed = sprint;
+        }
+        else
+        {
+            speed = regular;
+        }
 
 
 
