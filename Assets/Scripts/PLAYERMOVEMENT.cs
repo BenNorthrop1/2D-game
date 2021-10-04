@@ -83,17 +83,7 @@ public class PLAYERMOVEMENT : MonoBehaviour
     }
 
 
-    void DoFaceLeft(bool faceleft)
-    {
-        if (faceleft == true)
-        {
-            transform.localRotation = Quaternion.Euler(0, 180 , 0);
-        }
-        else
-        {
-            transform.localRotation = Quaternion.Euler(0, 0 , 0);
-        }
-    }
+    
     
     
 
@@ -136,16 +126,15 @@ public class PLAYERMOVEMENT : MonoBehaviour
         }
 
 
-
-        if(velocity.x <  -0.5f)
+        if (velocity.x < -0.5f)
         {
-            DoFaceLeft(true);
+            Helper.DoFaceLeft(gameObject , true);
         }
         if (velocity.x > 0.5f)
         {
-            DoFaceLeft(false);
-
+            Helper.DoFaceLeft(gameObject , false);
         }
+
 
 
 
@@ -166,7 +155,7 @@ public class PLAYERMOVEMENT : MonoBehaviour
 
 
 
-
+    Helper.followPlayer();
 
 
 }

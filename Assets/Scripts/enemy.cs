@@ -8,8 +8,11 @@ public class enemy : MonoBehaviour
 
     bool isGrounded;
 
+    Animator m_Animator;
+
     public float speed = 10f;
-    public float regular;   
+    public float regular;
+    public float stoppingDist = 2f;
 
     public GameObject player;
 
@@ -33,13 +36,13 @@ public class enemy : MonoBehaviour
 
         if (ex < px)
         {
-            
-            DoFaceLeft(false);
+
+            Helper.DoFaceLeft(gameObject, false);
         }
         else
         {
-        
-            DoFaceLeft(true);
+
+            Helper.DoFaceLeft(gameObject, true);
 
         }
 
@@ -57,9 +60,9 @@ public class enemy : MonoBehaviour
         }
 
 
-        if( dist > 2 )
+        if( dist > stoppingDist )
         {
-            velocity.x = -2;
+            velocity.x = -stoppingDist;
         }
 
 
@@ -77,18 +80,17 @@ public class enemy : MonoBehaviour
     }
 
 
-    void DoFaceLeft(bool faceleft)
-    {
-        if (faceleft == true)
-        {
-            transform.localRotation = Quaternion.Euler(0, 180 , 0);
-        }
-        else
-        {
-            transform.localRotation = Quaternion.Euler(0, 0 , 0);
-        }
-    }
 
+    Helper.followPlayer();
+     if(player > 2)
+        {
+            
+        }
+
+    if(player > -2)
+        {
+            
+        }
 
 
 
