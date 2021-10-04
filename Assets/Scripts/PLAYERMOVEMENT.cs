@@ -14,6 +14,7 @@ public class PLAYERMOVEMENT : MonoBehaviour
     public float jumpheight = 10f;
     public float sprint = 12f;
     public float regular;
+    public GameObject Stone;
 
 
 
@@ -34,15 +35,16 @@ public class PLAYERMOVEMENT : MonoBehaviour
         DoMove();
         DoFight();
 
+
     }
 
     void DoFight()
     {
         if (Input.GetButton("Fire1"))
         {
-            m_Animation.SetTrigger("Fight");
+            print("fight");
         }
-    }
+    }   
 
 
 
@@ -155,7 +157,7 @@ public class PLAYERMOVEMENT : MonoBehaviour
 
 
 
-    Helper.followPlayer();
+   // Helper.followPlayer();
 
 
 }

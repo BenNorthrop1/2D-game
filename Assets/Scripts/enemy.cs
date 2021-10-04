@@ -81,7 +81,7 @@ public class enemy : MonoBehaviour
 
 
 
-    Helper.followPlayer();
+   /* Helper.followPlayer();
      if(player > 2)
         {
             
@@ -90,7 +90,7 @@ public class enemy : MonoBehaviour
     if(player > -2)
         {
             
-        }
+        }*/
 
 
 

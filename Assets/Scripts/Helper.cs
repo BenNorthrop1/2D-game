@@ -17,7 +17,7 @@ public class Helper : MonoBehaviour
         }
     }
 
-   public static void followPlayer ( GameObject player , GameObject enemy)
+   /*public static void followPlayer ( GameObject player , GameObject enemy)
     {
         float dist;
         dist = player.transform.x - enemy.transform.x;
@@ -27,7 +27,7 @@ public class Helper : MonoBehaviour
 
 
 
-    }
+    }*/
 
 
 
