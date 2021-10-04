@@ -14,7 +14,8 @@ public class PLAYERMOVEMENT : MonoBehaviour
     public float jumpheight = 10f;
     public float sprint = 12f;
     public float regular;
-    public GameObject Stone;
+    //public GameObject Stone;
+    public GameObject Bullet;
 
 
 
@@ -42,7 +43,8 @@ public class PLAYERMOVEMENT : MonoBehaviour
     {
         if (Input.GetButton("Fire1"))
         {
-            print("fight");
+            Instantiate(Bullet, new Vector3(0, 0, 0));
+             
         }
     }   
 
