@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static Globals;
 
 public class PLAYERMOVEMENT : MonoBehaviour
 {
     private Rigidbody2D rb;
-
+    public GameObject projectile;
     bool isGrounded;
 
     Animator m_Animation;
@@ -14,9 +15,10 @@ public class PLAYERMOVEMENT : MonoBehaviour
     public float jumpheight = 10f;
     public float sprint = 12f;
     public float regular;
-    //public GameObject Stone;
-    public GameObject Bullet;
+    public float stoneSpeed = 1f;
 
+     
+    
 
 
     // Start is called before the first frame update
@@ -36,17 +38,9 @@ public class PLAYERMOVEMENT : MonoBehaviour
         DoMove();
         DoFight();
 
+        
 
     }
-
-    void DoFight()
-    {
-        if (Input.GetButton("Fire1"))
-        {
-            Instantiate(Bullet, new Vector3(0, 0, 0));
-             
-        }
-    }   
 
 
 
@@ -87,7 +81,17 @@ public class PLAYERMOVEMENT : MonoBehaviour
     }
 
 
-    
+    void DoFaceLeft(bool faceleft)
+    {
+        if (faceleft == true)
+        {
+            transform.localRotation = Quaternion.Euler(0, 180 , 0);
+        }
+        else
+        {
+            transform.localRotation = Quaternion.Euler(0, 0 , 0);
+        }
+    }
     
     
 
@@ -141,25 +145,39 @@ public class PLAYERMOVEMENT : MonoBehaviour
 
 
 
-
-
-
-
-
-
-
-
-
-
-
         rb.velocity = velocity;
 
     }
 
 
 
+    void CreateRock()
+    {
 
-   // Helper.followPlayer();
+            int dir = Helper.GetObjectDir( gameObject );
+            print("dir = " + dir);
+            
+            if(dir==Right)       // get the player direction
+            {
+                Helper.MakeBullet(projectile, transform.position.x , transform.position.y+1 , 16 , 5);
+            }
+            else
+            {
+                Helper.MakeBullet(projectile, transform.position.x + 1f , transform.position.y + 1 , -16 , 5);
+            }
+    }
 
+
+
+
+
+    void DoFight()
+    {
+        if (Input.GetButtonDown("Fire1"))
+        {
+            m_Animation.SetTrigger("Fight");
+        }
+
+    }
 
 }
