@@ -21,6 +21,7 @@ public class enemy : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         regular = speed;
+        m_Animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -53,10 +54,12 @@ public class enemy : MonoBehaviour
         if( dist < -2 )
         {
             velocity.x = 2;
+            m_Animator.SetBool("IsMoving", true);
         }
         else
         {
-            // dead zone - do attack
+            m_Animator.SetTrigger("IsAttacking");
+            m_Animator.SetBool("IsMoving", false);
         }
 
 

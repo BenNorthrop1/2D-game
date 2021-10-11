@@ -5,6 +5,8 @@ using static Globals;
 
 public class Helper : MonoBehaviour
 {
+    public static float playerHealth;
+
 
     public static void DoFaceLeft(GameObject obj, bool faceleft)
     {
@@ -21,7 +23,7 @@ public class Helper : MonoBehaviour
     public static int GetObjectDir(GameObject obj)
     {
         float ang = obj.transform.eulerAngles.y;
-        if(ang == 180)
+        if (ang == 180)
         {
             return Left;
         }
@@ -31,18 +33,31 @@ public class Helper : MonoBehaviour
         }
     }
 
-    public static void MakeBullet( GameObject prefab,  float xpos, float ypos, float xvel, float yvel )
+    public static void MakeBullet(GameObject prefab, float xpos, float ypos, float xvel, float yvel)
     {
         // instantiate the object at xpos,ypos
-        GameObject instance = Instantiate(prefab, new Vector3(xpos,ypos,0), Quaternion.identity);
-        
+        GameObject instance = Instantiate(prefab, new Vector3(xpos, ypos, 0), Quaternion.identity);
+
         // set the velocity of the instantiated object
-        Rigidbody2D rb = instance.GetComponent<Rigidbody2D>();
-        rb.velocity = new Vector3( xvel, yvel, 0 );
+        SetVelocity(instance, xvel, yvel);
 
         // set the direction of the instance based on the x velocity
-        DoFaceLeft( instance, xvel<0?true:false);
+        DoFaceLeft(instance, xvel < 0 ? true : false);
     }
+
+    public static void SetVelocity(GameObject obj, float xvel, float yvel)
+    {
+        Rigidbody2D rb = obj.GetComponent<Rigidbody2D>();
+        rb.velocity = new Vector3(xvel, yvel, 0);
+
+
+    }
+
+
+
+
+
+
 
 
 

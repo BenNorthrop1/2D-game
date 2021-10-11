@@ -37,12 +37,38 @@ public class PLAYERMOVEMENT : MonoBehaviour
         DoJump();
         DoMove();
         DoFight();
-
+        DoCollisons();
         
 
     }
 
+    void DoCollisons()
+    {
+        float rayLength = 1f;
 
+
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, rayLength);
+
+        Color hitColor = Color.white;
+
+        if (hit.collider != null)
+        {
+
+
+            if (hit.collider.tag == "Ground")
+            {
+                print("player has hit the ground");
+                hitColor = Color.green;
+                isGrounded = true;
+            }
+
+            else
+            {
+                isGrounded = false;
+            }
+        }
+        Debug.DrawRay(transform.position, -Vector2.up * rayLength, hitColor);
+    }
 
 
 
@@ -63,14 +89,20 @@ public class PLAYERMOVEMENT : MonoBehaviour
 
         rb.velocity = velocity;
 
-
-
-
     }
 
 
+    
+    
+    
 
-    private void OnCollisionStay2D(Collision2D collision)
+
+
+
+
+
+
+   /* private void OnCollisionStay2D(Collision2D collision)
     {
         isGrounded = true;
     }
@@ -79,7 +111,7 @@ public class PLAYERMOVEMENT : MonoBehaviour
     {
         isGrounded = false;
     }
-
+   */
 
     void DoFaceLeft(bool faceleft)
     {
@@ -155,15 +187,15 @@ public class PLAYERMOVEMENT : MonoBehaviour
     {
 
             int dir = Helper.GetObjectDir( gameObject );
-            print("dir = " + dir);
+            
             
             if(dir==Right)       // get the player direction
             {
-                Helper.MakeBullet(projectile, transform.position.x , transform.position.y+1 , 16 , 5);
+                Helper.MakeBullet(projectile, transform.position.x , transform.position.y+1 , 16 , 1);
             }
             else
             {
-                Helper.MakeBullet(projectile, transform.position.x + 1f , transform.position.y + 1 , -16 , 5);
+                Helper.MakeBullet(projectile, transform.position.x + 1f , transform.position.y + 1 , -16 , 1);
             }
     }
 
@@ -179,5 +211,16 @@ public class PLAYERMOVEMENT : MonoBehaviour
         }
 
     }
+
+    void Health()
+    {
+        
+    }
+
+
+
+
+
+
 
 }
