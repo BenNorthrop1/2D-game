@@ -82,18 +82,19 @@ public class enemy : MonoBehaviour
         isGrounded = false;
     }
 
+    
 
 
-   /* Helper.followPlayer();
-     if(player > 2)
-        {
-            
-        }
+    /* Helper.followPlayer();
+      if(player > 2)
+         {
 
-    if(player > -2)
-        {
-            
-        }*/
+         }
+
+     if(player > -2)
+         {
+
+         }*/
 
 
 
