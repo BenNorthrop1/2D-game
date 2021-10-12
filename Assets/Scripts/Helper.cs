@@ -54,8 +54,32 @@ public class Helper : MonoBehaviour
     }
 
 
+    public static void Raycast(GameObject obj , bool isGrounded)
+     {
+        float rayLength = 0.2f;
 
 
+    RaycastHit2D hit = Physics2D.Raycast(obj.transform.position, Vector2.down, rayLength);
+
+
+    Color hitColor = Color.white;
+
+    isGrounded = false;
+
+        if (hit.collider != null)
+        {
+
+
+            if (hit.collider.tag == "Ground")
+            {
+                hitColor = Color.green;
+                isGrounded = true;
+            }
+
+Debug.DrawRay(obj.transform.position, -Vector2.up * rayLength, hitColor);
+        }
+
+    }
 
 
 

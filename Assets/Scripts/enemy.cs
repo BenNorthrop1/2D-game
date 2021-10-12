@@ -27,13 +27,23 @@ public class enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        DoCollisons();
+
         float ex = transform.position.x;
         float px = player.transform.position.x;
         float dist = ex - px;
         Vector2 velocity = rb.velocity;
         
         
-
+        if(isGrounded == false)
+        {
+            velocity.x = 0;
+        }
+        else if (isGrounded == true)
+        {
+            velocity.x = speed;
+        }
 
         if (ex < px)
         {
@@ -53,17 +63,67 @@ public class enemy : MonoBehaviour
         velocity.x = 0;
         if( dist < -2 )
         {
-            velocity.x = 2;
+            velocity.x = speed;
             m_Animator.SetBool("IsMoving", true);
         }
         else
         {
-            m_Animator.SetTrigger("IsAttacking");
-            m_Animator.SetBool("IsMoving", false);
+            //attack
         }
 
 
-        if( dist > stoppingDist )
+        void DoCollisons()
+        {
+            float rayLength = 0.2f;
+            float sightLength = 1f;
+
+
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, rayLength);
+            RaycastHit2D wallL = Physics2D.Raycast(transform.position, Vector2.left, sightLength);
+            RaycastHit2D wallR = Physics2D.Raycast(transform.position, Vector3.right, sightLength);
+
+            Color hitColor = Color.white;
+
+
+            isGrounded = false;
+
+            if (hit.collider != null)
+            {
+
+
+                if (hit.collider.tag == "Ground")
+                {
+                    hitColor = Color.green;
+                    isGrounded = true;
+                }
+                
+                if (wallL.collider.tag == "Player")
+                {
+                    hitColor = Color.red;
+                    print("i hit the player");
+                    
+                }
+                
+                if (wallR.collider.tag == "Player")
+                {
+                    hitColor = Color.red;
+                    print("i hit the player");
+
+                }
+
+
+
+                Debug.DrawRay(transform.position, -Vector2.up * rayLength, hitColor);
+            }
+
+        }
+
+
+
+
+
+
+        if ( dist > stoppingDist )
         {
             velocity.x = -stoppingDist;
         }
@@ -72,15 +132,6 @@ public class enemy : MonoBehaviour
         rb.velocity = velocity;
     }
 
-    private void OnCollisionStay2D(Collision2D collision)
-    {
-        isGrounded = true;
-    }
-
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        isGrounded = false;
-    }
 
     
 

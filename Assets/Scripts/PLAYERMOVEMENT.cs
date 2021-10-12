@@ -49,7 +49,8 @@ public class PLAYERMOVEMENT : MonoBehaviour
 
 
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, rayLength);
-
+   
+        
         Color hitColor = Color.white;
 
         isGrounded = false;
@@ -64,7 +65,6 @@ public class PLAYERMOVEMENT : MonoBehaviour
                 isGrounded = true;
             }
             
-
             Debug.DrawRay(transform.position, -Vector2.up * rayLength, hitColor);
         }
 
@@ -207,7 +207,6 @@ public class PLAYERMOVEMENT : MonoBehaviour
             {
                 m_Animation.SetTrigger("Fight");
             }
-
         }
 
         void Health()
