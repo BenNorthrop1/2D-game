@@ -133,20 +133,4 @@ public class enemy : MonoBehaviour
     }
 
 
-    
-
-
-    /* Helper.followPlayer();
-      if(player > 2)
-         {
-
-         }
-
-     if(player > -2)
-         {
-
-         }*/
-
-
-
 }
