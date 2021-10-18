@@ -8,6 +8,8 @@ public class enemy : MonoBehaviour
 
     bool isGrounded;
 
+    public GameObject OBJ;
+
     Animator m_Animator;
 
     public float speed = 10f;
@@ -122,7 +124,6 @@ public class enemy : MonoBehaviour
 
 
 
-
         if ( dist > stoppingDist )
         {
             velocity.x = -stoppingDist;
@@ -131,6 +132,17 @@ public class enemy : MonoBehaviour
 
         rb.velocity = velocity;
     }
+
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(tag == "Throwable")
+        {
+            Destroy(OBJ, 1.00f);
+        }
+    }
+
+
 
 
 }
