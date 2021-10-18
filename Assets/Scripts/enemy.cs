@@ -81,9 +81,6 @@ public class enemy : MonoBehaviour
 
 
             RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, rayLength);
-            RaycastHit2D wallL = Physics2D.Raycast(transform.position, Vector2.left, sightLength);
-            RaycastHit2D wallR = Physics2D.Raycast(transform.position, Vector3.right, sightLength);
-
             Color hitColor = Color.white;
 
 
@@ -99,19 +96,7 @@ public class enemy : MonoBehaviour
                     isGrounded = true;
                 }
                 
-                if (wallL.collider.tag == "Player")
-                {
-                    hitColor = Color.red;
-                    print("i hit the player");
-                    
-                }
-                
-                if (wallR.collider.tag == "Player")
-                {
-                    hitColor = Color.red;
-                    print("i hit the player");
-
-                }
+               
 
 
 
@@ -133,14 +118,6 @@ public class enemy : MonoBehaviour
         rb.velocity = velocity;
     }
 
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if(tag == "Throwable")
-        {
-            Destroy(OBJ, 1.00f);
-        }
-    }
 
 
 

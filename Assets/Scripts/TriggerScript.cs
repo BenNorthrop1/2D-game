@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TriggerScript : MonoBehaviour
 {
-    public GameObject GameObject;
+    
 
 
     // Start is called before the first frame update
@@ -24,6 +24,6 @@ public class TriggerScript : MonoBehaviour
 
     private void OnTriggerEnter2D( Collider2D other)
     {
-        Destroy(GameObject, 1.00f);
+        Destroy(gameObject, 1.00f);
     }
 }
