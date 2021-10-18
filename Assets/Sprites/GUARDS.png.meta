@@ -386,6 +386,9 @@ TextureImporter:
   - first:
       213: 4168937408542073420
     second: GUARDS_127
+  - first:
+      213: -3084593387445160543
+    second: GUARDS_128
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -452,7 +455,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -464,7 +467,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -500,7 +503,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -1010,9 +1013,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 120
-        y: 337
+        y: 335
         width: 36
-        height: 36
+        height: 38
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1179,7 +1182,7 @@ TextureImporter:
         serializedVersion: 2
         x: 502
         y: 334
-        width: 61
+        width: 37
         height: 39
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -1384,132 +1387,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GUARDS_42
-      rect:
-        serializedVersion: 2
-        x: 518
-        y: 316
-        width: 5
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b232f32343354d680800000000000000
-      internalID: -8731262293918145749
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GUARDS_43
-      rect:
-        serializedVersion: 2
-        x: 530
-        y: 318
-        width: 5
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1548425c593ef3770800000000000000
-      internalID: 8592836846443332689
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GUARDS_44
-      rect:
-        serializedVersion: 2
-        x: 557
-        y: 317
-        width: 5
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c1ef6e8acbfdaf790800000000000000
-      internalID: -7495432628424212964
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GUARDS_45
-      rect:
-        serializedVersion: 2
-        x: 568
-        y: 317
-        width: 5
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8d862a636e22896d0800000000000000
-      internalID: -2983596380978517800
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GUARDS_46
-      rect:
-        serializedVersion: 2
-        x: 595
-        y: 318
-        width: 5
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae98b00e203464480800000000000000
-      internalID: -8915364732705469974
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GUARDS_47
-      rect:
-        serializedVersion: 2
-        x: 606
-        y: 317
-        width: 5
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 78eb1d9aa139381e0800000000000000
-      internalID: -2196750450499142009
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: GUARDS_48
       rect:
         serializedVersion: 2
@@ -1636,48 +1513,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GUARDS_54
-      rect:
-        serializedVersion: 2
-        x: 542
-        y: 315
-        width: 5
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a5187e2c0ad4c3d0800000000000000
-      internalID: -3187182890417384027
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GUARDS_55
-      rect:
-        serializedVersion: 2
-        x: 585
-        y: 313
-        width: 5
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1825ef7f033171b80800000000000000
-      internalID: -8424243476933225855
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: GUARDS_56
       rect:
         serializedVersion: 2
@@ -1725,8 +1560,8 @@ TextureImporter:
         serializedVersion: 2
         x: 518
         y: 284
-        width: 28
-        height: 29
+        width: 30
+        height: 37
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1747,7 +1582,7 @@ TextureImporter:
         x: 552
         y: 284
         width: 28
-        height: 30
+        height: 39
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1762,34 +1597,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GUARDS_60
-      rect:
-        serializedVersion: 2
-        x: 575
-        y: 311
-        width: 5
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 552f29227717527f0800000000000000
-      internalID: -637979015707954603
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: GUARDS_61
       rect:
         serializedVersion: 2
-        x: 586
+        x: 585
         y: 284
-        width: 28
-        height: 29
+        width: 29
+        height: 42
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1799,27 +1613,6 @@ TextureImporter:
       bones: []
       spriteID: 719d620dfda12d470800000000000000
       internalID: 8417820202081114391
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GUARDS_62
-      rect:
-        serializedVersion: 2
-        x: 606
-        y: 310
-        width: 5
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6fdda349cf739df50800000000000000
-      internalID: 6906613061507538422
       vertices: []
       indices: 
       edges: []
@@ -3185,6 +2978,48 @@ TextureImporter:
       bones: []
       spriteID: c42ecfe2c7a0bd930800000000000000
       internalID: 4168937408542073420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUARDS_24
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 348
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1c4d58543f32cb0800000000000000
+      internalID: -4889797290470620705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUARDS_128
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 362
+        width: 18
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5ffc038a25135d0800000000000000
+      internalID: -3084593387445160543
       vertices: []
       indices: 
       edges: []
