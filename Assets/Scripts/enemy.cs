@@ -77,7 +77,6 @@ public class enemy : MonoBehaviour
         void DoCollisons()
         {
             float rayLength = 0.2f;
-            float sightLength = 1f;
 
 
             RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, rayLength);
