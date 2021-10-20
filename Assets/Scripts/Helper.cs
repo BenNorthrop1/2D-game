@@ -5,7 +5,7 @@ using static Globals;
 
 public class Helper : MonoBehaviour
 {
-    public static float playerHealth;
+    
 
 
     public static void DoFaceLeft(GameObject obj, bool faceleft)
@@ -81,10 +81,9 @@ Debug.DrawRay(obj.transform.position, -Vector2.up * rayLength, hitColor);
 
     }
 
+   
 
-
-
-
+    
 
 
 }

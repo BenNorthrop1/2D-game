@@ -12,6 +12,9 @@ public class enemy : MonoBehaviour
 
     Animator m_Animator;
 
+    public int maxHealth = 100;
+    public int currentHealth;
+
     public float speed = 10f;
     public float regular;
     public float stoppingDist = 2f;
@@ -24,7 +27,10 @@ public class enemy : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         regular = speed;
         m_Animator = GetComponent<Animator>();
+        currentHealth = maxHealth;
     }
+
+
 
     // Update is called once per frame
     void Update()
@@ -104,8 +110,27 @@ public class enemy : MonoBehaviour
 
         }
 
+         void OnCollisionEnter2D(Collision2D collision)
+        {
+            if (collision.gameObject.name == "prefab(Clone)")
+            {
+                TakeDamage(20);
+            }
+        }
 
 
+
+
+
+        void TakeDamage(int damage )
+        {
+            currentHealth -= damage;
+
+            if (currentHealth == 0)
+            {
+                Destroy(gameObject);
+            }
+        }
 
 
         if ( dist > stoppingDist )
@@ -117,7 +142,7 @@ public class enemy : MonoBehaviour
         rb.velocity = velocity;
     }
 
-
+    
 
 
 

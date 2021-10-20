@@ -10,4 +10,15 @@ public class DestructionPrefab : MonoBehaviour
         Destroy(gameObject, 1.00f);
     }
 
+    private void Update()
+    {
+        void OnCollisionEnter2D(Collision2D collision)
+        {
+            Destroy(gameObject);
+        }
+
+    }
+
+
+
 }
